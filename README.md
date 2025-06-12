@@ -46,10 +46,9 @@ I18N: [English](README_EN.md) | [简体中文](README.md) | [日本語](README_J
 3. 下载源代码，更新 feeds 并选择配置
 
    ```bash
-   git clone https://github.com/coolsnowwolf/lede
+   git clone https://github.com/1774293824/lede_18.05
    cd lede
-   ./scripts/feeds update -a
-   ./scripts/feeds install -a
+   ./scripts/feeds update -a && ./scripts/feeds install -a
    make menuconfig
    ```
 
